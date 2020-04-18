@@ -96,6 +96,7 @@ class ParameterForm extends Component {
 
     render() {
         const { headerParametersForm, optionalParametersForm } = this.state;
+        console.log(219, headerParametersForm);
         return (
             <>
                 <ExpansionPanel defaultExpanded style={{ backgroundColor: '#cfb997', fontWeight: 'bold' }}>
